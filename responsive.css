@@ -9,7 +9,7 @@
 @media screen and (max-width:850px) {
   .grid-3-cols {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(1,1fr);
     column-gap: 40px;
     letter-spacing: normal;
     row-gap: 40px;
@@ -17,14 +17,15 @@
 
   .btn--small {
     font-size: 12px;
-    padding: 5px 5px;
+    padding: 10px 10px;
   }
 
-  .grid {
+  /* .try {
     display: grid;
     grid-template-columns: repeat(1,1fr);
     column-gap: 40px;
-  }
+    overflow: hidden;
+  } */
 }
 
 @media screen and (max-width: 600px) {

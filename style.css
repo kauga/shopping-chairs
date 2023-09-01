@@ -71,6 +71,7 @@ h2 {
 .btn--big {
   font-size: 18px;
   padding: 16px 32px;
+  margin-bottom: 12px;
 }
 
 .btn--small {
