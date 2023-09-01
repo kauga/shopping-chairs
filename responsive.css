@@ -1,3 +1,4 @@
+/*body*/
 @media screen and (max-width: 600px) {
   body {
     max-width: 600px;
@@ -15,7 +16,34 @@
     max-width: 320px;
   }
 }
+/* HEADER */
+@media screen and (max-width: 320px) {
+  header {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 40px;
+  margin-top: 38px;
+  max-width: auto;
+  }
+}
 
+@media screen and (max-width: 320px) {
+  .header-text {
+      margin-bottom: 15px;
+      font-size: 12px;
+      /* line-height: 1.7; */
+  }
+}
+
+/* image */
+@media screen and (max-width: 320px) {
+  .image {
+  height: 200px;
+  width: 300px;
+  }
+}
+
+/*h2*/
 @media screen and (max-width: 600px) {
   h2 {
   margin-bottom: 38px;
@@ -37,5 +65,17 @@
   margin-bottom: 20px;
   font-size: 16px;
   line-height: -0.5px;
+  color: lightblue;
   }
 }
+
+/* h1 */
+@media screen and (max-width: 320px) {
+  h1 {
+    margin-bottom: 24px;
+    font-size: 20px;
+    line-height: 1;
+    /* letter-spacing: -1px; */
+  }
+}
+
