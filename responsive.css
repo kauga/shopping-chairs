@@ -1,4 +1,4 @@
-/* @media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
   body {
     max-width: 600px;
   }
@@ -18,6 +18,24 @@
 
 @media screen and (max-width: 600px) {
   h2 {
-    font-size: ;
+  margin-bottom: 38px;
+  font-size: 26px;
+  line-height: -0.5px;
   }
-} */
+}
+
+@media screen and (max-width: 420px) {
+  h2 {
+  margin-bottom: 28px;
+  font-size: 18px;
+  line-height: -0.5px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  h2 {
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: -0.5px;
+  }
+}
