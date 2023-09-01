@@ -87,13 +87,6 @@ width: px;
   line-height: 1.5;
 }
 
-.grid-3-cols {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  column-gap: 80px;
-}
-
-
 }
 
 @media screen and (max-width: 420px) {
@@ -110,10 +103,6 @@ width: px;
   header {
     column-gap: 30px;
     margin-top: 28px;
-  }
-
-  .grid-3-cols {
-    column-gap: 30px;
   }
 
   .btn {
@@ -174,9 +163,6 @@ width: px;
     margin-top: 24px;
   }
 
-  .grid-3-cols {
-    column-gap: 25px;
-  }
 
   .btn {
     padding: 10px;
@@ -216,10 +202,6 @@ width: px;
   header {
     column-gap: 26px;
     margin-top: 25px;
-  }
-
-  .grid-3-cols {
-    column-gap: 28px;
   }
 
   .btn {
